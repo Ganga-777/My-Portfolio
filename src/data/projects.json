@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Html & CSS-Tasks",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://ganga-777.github.io/MERN_HTML-CSS_TASKS/",
+    "source": "https://github.com/Ganga-777/MERN_HTML-CSS_TASKS"
+  },
+  {
+    "title": "Bootstrap & JavaScript-Tasks",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": [ "JavaScript", "Bootstrap"],
+    "demo": "https://ganga-777.github.io/Bootstrap-JavaScript_Tasks/",
+    "source": "https://github.com/Ganga-777/Bootstrap-JavaScript_Tasks"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "HTML", "JS", "Json"],
+    "demo": "https://react-js-task-3-qeab.vercel.app/",
+    "source": "https://github.com/Ganga-777/ReactJs-Task-4"
+  }
+]
