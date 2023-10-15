@@ -4,7 +4,7 @@
     "organisation": "Bharat intern",
     "startDate": "May, 2023",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": ["Worked on HTML CSS JS ", "Mainly Focus on HTML & CSS"],
     "imageSrc": "history/google.png"
   },
   {
@@ -12,7 +12,7 @@
     "organisation": "OasisInfoByte Intern",
     "startDate": "July, 2023",
     "endDate": "Present",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "experiences": ["I recieved recomondation latter from that company based on work", "Mainly focus on js"],
     "imageSrc": "history/microsoft.png"
   },
   {
@@ -21,8 +21,8 @@
     "startDate": "Sept, 2023",
     "endDate": "Present",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "i worked 2 months experiences",
+      "Helped create best web design components"
     ],
     "imageSrc": "history/netflix.png"
   }
