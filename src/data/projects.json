@@ -20,7 +20,7 @@
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "HTML", "JS", "Json"],
-    "demo": "https://react-js-task-3-qeab.vercel.app/",
-    "source": "https://github.com/Ganga-777/ReactJs-Task-4"
+    "demo": "https://ganga-777.github.io/Mern_ReactJS/",
+    "source": "https://github.com/Ganga-777/Mern_ReactJS"
   }
 ]
