@@ -8,12 +8,12 @@
     "imageSrc": "history/ethnus.png"
   },
   {
-    "role": "Web Developer ",
-    "organisation": "OasisInfoByte Intern",
-    "startDate": "July, 2023",
+    "role": "AWS Cloud Practitioner Intern ",
+    "organisation": "AWS",
+    "startDate": "Sept, 2023",
     "endDate": "Present",
-    "experiences": ["I recieved recomondation latter from that company based on work", "Mainly focus on js"],
-    "imageSrc": "history/microsoft.png"
+    "experiences": ["Industrial Internship", "Mainly focus on Cloud"],
+    "imageSrc": "history/aws.png"
   },
   {
     "role": "Web Developer ",
