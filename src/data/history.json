@@ -1,11 +1,11 @@
 [
   {
-    "role": "Web Developer",
-    "organisation": "Bharat intern",
-    "startDate": "May, 2023",
+    "role": "MERN Full Stack Intern",
+    "organisation": "Ethnus",
+    "startDate": "Sept, 2023",
     "endDate": "Present",
-    "experiences": ["Worked on HTML CSS JS ", "Mainly Focus on HTML & CSS"],
-    "imageSrc": "history/google.png"
+    "experiences": ["Industrial Internship ", "Mainly Focus on MERN Full Stack"],
+    "imageSrc": "history/ethnus.png"
   },
   {
     "role": "Web Developer ",
