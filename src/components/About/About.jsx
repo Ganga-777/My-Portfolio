@@ -23,7 +23,7 @@ export const About = () => {
           <div className={styles.expertiseGrid}>
             <div className={styles.expertiseCard}>
               <div className={styles.expertiseIcon}>
-                <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend" />
+                <img src={getImageUrl("skills/react.png")} alt="Frontend" />
               </div>
               <h3>Frontend Development</h3>
               <p>React.js, React Native, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS</p>
@@ -31,7 +31,7 @@ export const About = () => {
             
             <div className={styles.expertiseCard}>
               <div className={styles.expertiseIcon}>
-                <img src={getImageUrl("about/serverIcon.png")} alt="Backend" />
+                <img src={getImageUrl("skills/node.png")} alt="Backend" />
               </div>
               <h3>Backend Development</h3>
               <p>.NET APIs, Node.js, Express.js, Java Spring Boot, REST API Integration</p>
@@ -39,7 +39,7 @@ export const About = () => {
             
             <div className={styles.expertiseCard}>
               <div className={styles.expertiseIcon}>
-                <img src={getImageUrl("about/cursorIcon.png")} alt="Database" />
+                <img src={getImageUrl("skills/mongodb.png")} alt="Database" />
               </div>
               <h3>Database & Cloud</h3>
               <p>MySQL, MongoDB, AWS Cloud Services, Database Management</p>
@@ -58,7 +58,7 @@ export const About = () => {
             <div className={styles.educationBadge}>
               <span className={styles.eduIcon}>🎓</span>
               <div className={styles.eduText}>
-                <h4>B.Tech Final Year</h4>
+                <h4>B.Tech Graduate</h4>
                 <p>VIT-AP University</p>
               </div>
             </div>

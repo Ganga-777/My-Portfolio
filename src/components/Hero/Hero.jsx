@@ -16,16 +16,16 @@ export const Hero = () => {
           applications at JumpStartNinja Technologies.
         </p>
         <div className={styles.tagline}>
-          <span className={styles.tag}>B.Tech Final Year</span>
+          <span className={styles.tag}>B.Tech Graduate</span>
           <span className={styles.tagDivider}>|</span>
           <span className={styles.tag}>VIT-AP University</span>
         </div>
         <div className={styles.buttons}>
-          <a href="mailto:varaprasadganga4@gmail.com" className={styles.contactBtn}>
-            Hire Me
-          </a>
           <a href="#projects" className={styles.projectsBtn}>
-            View Projects
+            View My Work
+          </a>
+          <a href="#contact" className={styles.contactBtn}>
+            Get In Touch
           </a>
         </div>
       </div>

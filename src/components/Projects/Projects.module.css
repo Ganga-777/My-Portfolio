@@ -1,24 +1,32 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 100px;
   color: var(--color-text);
   margin-left: var(--section-margin-x);
   margin-right: var(--section-margin-x);
 }
 
 .title {
-  font-size: clamp(24px, 3vw, 35px);
+  font-size: clamp(28px, 3.5vw, 40px);
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: clamp(15px, 1.8vw, 18px);
+  margin-bottom: 50px;
 }
 
 .projects {
-  margin-top: 37px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 28px;
   width: 100%;
   align-items: stretch;
 }
@@ -30,8 +38,8 @@
   }
 
   .projects {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
   }
 }
 
@@ -39,11 +47,14 @@
   .container {
     margin-left: var(--section-margin-x-mobile);
     margin-right: var(--section-margin-x-mobile);
-    margin-top: 56px;
+    margin-top: 64px;
+  }
+
+  .subtitle {
+    margin-bottom: 36px;
   }
 
   .projects {
-    margin-top: 28px;
     grid-template-columns: 1fr;
     gap: 20px;
   }
@@ -52,6 +63,5 @@
 @media screen and (max-width: 480px) {
   .projects {
     gap: 16px;
-    margin-top: 24px;
   }
 }
