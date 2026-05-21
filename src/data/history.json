@@ -5,11 +5,11 @@
     "startDate": "April 2025",
     "endDate": "Present",
     "experiences": [
-      "Developing scalable web applications",
-      "Working on frontend and backend modules",
-      "Implementing UI improvements and dashboard features",
-      "Managing environment-based branding systems",
-      "Building enterprise-level HR and inspection dashboards"
+      "Developing scalable enterprise dashboard systems",
+      "Building frontend architecture with React.js",
+      "Creating .NET APIs for backend services",
+      "Implementing environment-based branding systems",
+      "Working on HR and inspection dashboard features"
     ],
     "imageSrc": "history/netflix.png"
   },
@@ -19,10 +19,10 @@
     "startDate": "Internship",
     "endDate": "",
     "experiences": [
-      "Worked on React Native applications",
-      "Built frontend UI components",
-      "Collaborated with backend teams",
-      "Improved application performance and responsiveness"
+      "Developed React Native mobile applications",
+      "Built responsive frontend UI components",
+      "Collaborated with backend teams for API integration",
+      "Optimized application performance"
     ],
     "imageSrc": "history/aws.jpeg"
   },
@@ -32,10 +32,10 @@
     "startDate": "September 2023",
     "endDate": "November 2023",
     "experiences": [
-      "Developed full-stack applications using MERN Stack",
-      "Built responsive web interfaces",
-      "Integrated backend APIs",
-      "Worked with MongoDB database systems"
+      "Built full-stack applications using MERN Stack",
+      "Developed responsive web interfaces",
+      "Integrated REST APIs with MongoDB backend",
+      "Learned industry best practices"
     ],
     "imageSrc": "history/ethnus.png"
   }

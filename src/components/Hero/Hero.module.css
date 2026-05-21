@@ -10,6 +10,7 @@
   z-index: 1;
   margin-left: var(--section-margin-x);
   margin-right: var(--section-margin-x);
+  min-height: calc(100vh - 200px);
 }
 
 .content {
@@ -22,51 +23,120 @@
   min-width: 0;
 }
 
+.greeting {
+  font-size: clamp(16px, 2vw, 22px);
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 .title {
-  font-size: clamp(28px, 5vw, 72px);
+  font-size: clamp(28px, 5vw, 64px);
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 12px;
   font-family: var(--font-roboto);
   line-height: 1.15;
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgba(255, 255, 255, 0.7) 100%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }
 
-.description {
-  font-size: clamp(16px, 2.5vw, 30px);
+.subtitle {
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 20px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
-  line-height: 1.5;
-  max-width: 52ch;
+}
+
+.description {
+  font-size: clamp(15px, 1.8vw, 20px);
+  font-family: var(--font-roboto);
+  margin-bottom: 20px;
+  line-height: 1.7;
+  max-width: 55ch;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.tagline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: clamp(13px, 1.5vw, 16px);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 6px 14px;
+  background: rgba(87, 108, 188, 0.2);
+  border-radius: 20px;
+  border: 1px solid rgba(87, 108, 188, 0.3);
+}
+
+.tagDivider {
+  color: rgba(255, 255, 255, 0.3);
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .contactBtn {
   text-decoration: none;
-  background-color: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #7b8fd4 100%);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: clamp(16px, 2vw, 30px);
+  font-size: clamp(14px, 1.8vw, 18px);
   font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  white-space: nowrap;
+  padding: 14px 32px;
+  box-shadow: 0 4px 15px rgba(87, 108, 188, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contactBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(87, 108, 188, 0.5);
+}
+
+.projectsBtn {
+  text-decoration: none;
+  background: transparent;
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: clamp(14px, 1.8vw, 18px);
+  font-weight: 600;
+  padding: 14px 32px;
+  border: 2px solid var(--color-primary);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.projectsBtn:hover {
+  background: rgba(87, 108, 188, 0.1);
+  transform: translateY(-2px);
 }
 
 .heroImg {
-  width: 45%;
-  max-width: 480px;
+  width: 40%;
+  max-width: 420px;
   flex-shrink: 0;
   z-index: 1;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
 }
 
 @keyframes floating {
@@ -74,7 +144,7 @@
     transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 10px);
+    transform: translate(0, 15px);
   }
   100% {
     transform: translate(0, 0px);
@@ -114,10 +184,11 @@
     margin-left: var(--section-margin-x-tablet);
     margin-right: var(--section-margin-x-tablet);
     margin-top: 36px;
+    min-height: auto;
   }
 
   .heroImg {
-    width: 42%;
+    width: 38%;
   }
 }
 
@@ -130,6 +201,7 @@
     margin-right: var(--section-margin-x-mobile);
     margin-top: 28px;
     gap: 24px;
+    min-height: auto;
   }
 
   .content {
@@ -138,18 +210,25 @@
   }
 
   .title {
-    margin-bottom: 20px;
     text-align: center;
   }
 
   .description {
-    margin-bottom: 32px;
     text-align: center;
     max-width: 100%;
   }
 
+  .tagline {
+    justify-content: center;
+  }
+
+  .buttons {
+    justify-content: center;
+    width: 100%;
+  }
+
   .heroImg {
-    width: min(75%, 300px);
+    width: min(65%, 280px);
     max-width: 100%;
   }
 
@@ -166,22 +245,19 @@
     gap: 16px;
   }
 
-  .title {
-    margin-bottom: 16px;
-  }
-
-  .description {
-    margin-bottom: 24px;
-  }
-
-  .contactBtn {
-    padding: 12px 20px;
+  .buttons {
+    flex-direction: column;
     width: 100%;
-    max-width: 280px;
+  }
+
+  .contactBtn,
+  .projectsBtn {
+    width: 100%;
     text-align: center;
+    padding: 12px 24px;
   }
 
   .heroImg {
-    width: min(85%, 260px);
+    width: min(75%, 240px);
   }
 }

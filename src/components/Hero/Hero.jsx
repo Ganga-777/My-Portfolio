@@ -7,19 +7,31 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Kandrathi Ganga Vara Prasad</h1>
+        <p className={styles.greeting}>Hello, I'm</p>
+        <h1 className={styles.title}>Kandrathi Ganga Vara Prasad</h1>
+        <h2 className={styles.subtitle}>Full Stack Developer</h2>
         <p className={styles.description}>
-          Full Stack Developer building scalable web apps, client websites,
-          enterprise dashboards, and RAG-powered tools with React, Node.js, and
-          React Native. Reach out if you would like to collaborate!
+          Skilled in React.js, .NET APIs, MySQL, MERN Stack, React Native, and AWS Cloud 
+          technologies. Currently building enterprise dashboard systems and scalable 
+          applications at JumpStartNinja Technologies.
         </p>
-        <a href="mailto:varaprasadganga4@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.tagline}>
+          <span className={styles.tag}>B.Tech Final Year</span>
+          <span className={styles.tagDivider}>|</span>
+          <span className={styles.tag}>VIT-AP University</span>
+        </div>
+        <div className={styles.buttons}>
+          <a href="mailto:varaprasadganga4@gmail.com" className={styles.contactBtn}>
+            Hire Me
+          </a>
+          <a href="#projects" className={styles.projectsBtn}>
+            View Projects
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
-        alt="Hero image of me"
+        alt="Ganga Vara Prasad"
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />

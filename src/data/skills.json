@@ -1,5 +1,49 @@
 [
   {
+    "title": "React.js",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "React Native",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": ".NET",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/html.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -8,23 +52,7 @@
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Node.js",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "React Native",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Python",
-    "imageSrc": "skills/figma.png"
+    "title": "Tailwind",
+    "imageSrc": "skills/css.png"
   }
 ]

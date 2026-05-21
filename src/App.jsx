@@ -4,7 +4,8 @@ import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Projects  } from "./components/Projects/Projects";
+import { Projects } from "./components/Projects/Projects";
+import { WhatsAppButton } from "./components/WhatsAppButton/WhatsAppButton";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <WhatsAppButton />
     </div>
   );
 }

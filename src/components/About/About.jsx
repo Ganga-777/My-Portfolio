@@ -6,45 +6,64 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About Me</h2>
+      <p className={styles.intro}>
+        Full Stack Developer with hands-on experience in building scalable web and mobile 
+        applications. Currently contributing to enterprise systems at JumpStartNinja Technologies.
+      </p>
+      
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
+          alt="Ganga Vara Prasad"
           className={styles.aboutImage}
         />
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Full Stack Developer</h3>
-              <p>
-                I build responsive web apps, client websites, and dashboards with
-                React, Node.js, and modern UI patterns
-              </p>
+        
+        <div className={styles.aboutDetails}>
+          <div className={styles.expertiseGrid}>
+            <div className={styles.expertiseCard}>
+              <div className={styles.expertiseIcon}>
+                <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend" />
+              </div>
+              <h3>Frontend Development</h3>
+              <p>React.js, React Native, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS</p>
             </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend & APIs</h3>
-              <p>
-                I develop APIs, integrate MongoDB, and support enterprise HR and
-                inspection dashboard backends
-              </p>
+            
+            <div className={styles.expertiseCard}>
+              <div className={styles.expertiseIcon}>
+                <img src={getImageUrl("about/serverIcon.png")} alt="Backend" />
+              </div>
+              <h3>Backend Development</h3>
+              <p>.NET APIs, Node.js, Express.js, Java Spring Boot, REST API Integration</p>
             </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Mobile & AI</h3>
-              <p>
-                React Native app development and RAG-based document query systems
-                for real-world client and product work
-              </p>
+            
+            <div className={styles.expertiseCard}>
+              <div className={styles.expertiseIcon}>
+                <img src={getImageUrl("about/cursorIcon.png")} alt="Database" />
+              </div>
+              <h3>Database & Cloud</h3>
+              <p>MySQL, MongoDB, AWS Cloud Services, Database Management</p>
             </div>
-          </li>
-        </ul>
+            
+            <div className={styles.expertiseCard}>
+              <div className={styles.expertiseIcon}>
+                <img src={getImageUrl("about/serverIcon.png")} alt="Specialized" />
+              </div>
+              <h3>Specialized Skills</h3>
+              <p>AI-based Applications, Real-time Systems, OpenCV, Python</p>
+            </div>
+          </div>
+          
+          <div className={styles.education}>
+            <div className={styles.educationBadge}>
+              <span className={styles.eduIcon}>🎓</span>
+              <div className={styles.eduText}>
+                <h4>B.Tech Final Year</h4>
+                <p>VIT-AP University</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
