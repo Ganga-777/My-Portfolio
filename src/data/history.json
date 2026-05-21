@@ -1,29 +1,42 @@
 [
   {
-    "role": "MERN Full Stack Intern",
-    "organisation": "Ethnus",
-    "startDate": "Sept, 2023",
+    "role": "Full Stack Developer",
+    "organisation": "JumpStartNinja Technologies",
+    "startDate": "April 2025",
     "endDate": "Present",
-    "experiences": ["Industrial Internship ", "Mainly Focus on MERN Full Stack"],
-    "imageSrc": "history/ethnus.png"
+    "experiences": [
+      "Developing scalable web applications",
+      "Working on frontend and backend modules",
+      "Implementing UI improvements and dashboard features",
+      "Managing environment-based branding systems",
+      "Building enterprise-level HR and inspection dashboards"
+    ],
+    "imageSrc": "history/netflix.png"
   },
   {
-    "role": "AWS Cloud Practitioner Intern ",
-    "organisation": "AWS",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "experiences": ["Industrial Internship", "Mainly focus on Cloud"],
+    "role": "Mobile App Development Intern",
+    "organisation": "Lyte Calc Technologies Pvt Ltd",
+    "startDate": "Internship",
+    "endDate": "",
+    "experiences": [
+      "Worked on React Native applications",
+      "Built frontend UI components",
+      "Collaborated with backend teams",
+      "Improved application performance and responsiveness"
+    ],
     "imageSrc": "history/aws.jpeg"
   },
   {
-    "role": "Web Developer ",
-    "organisation": "Octanet Intern",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
+    "role": "MERN Stack Intern",
+    "organisation": "ETHNUS",
+    "startDate": "September 2023",
+    "endDate": "November 2023",
     "experiences": [
-      "i worked 2 months experiences",
-      "Helped create best web design components"
+      "Developed full-stack applications using MERN Stack",
+      "Built responsive web interfaces",
+      "Integrated backend APIs",
+      "Worked with MongoDB database systems"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/ethnus.png"
   }
 ]

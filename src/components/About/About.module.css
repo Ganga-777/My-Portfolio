@@ -7,13 +7,13 @@
   padding: 73px;
   margin-top: 129px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: var(--section-margin-x);
+  margin-right: var(--section-margin-x);
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: clamp(24px, 3vw, 35px);
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -23,10 +23,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 40px;
+  margin-top: 24px;
 }
 
 .aboutImage {
   width: 35%;
+  max-width: 320px;
+  flex-shrink: 0;
 }
 
 .aboutItems {
@@ -34,12 +38,15 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  flex: 1;
+  min-width: 0;
 }
 
 .aboutItem {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 16px;
   border-radius: 20px;
   list-style: none;
   padding: 25px;
@@ -53,28 +60,55 @@
   transition: 0.4s;
 }
 
+.aboutItem img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
 .aboutItem:hover {
   background-size: 100% 100%;
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: clamp(18px, 2vw, 25px);
   font-weight: 600;
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: clamp(15px, 1.8vw, 25px);
+  line-height: 1.45;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-left: var(--section-margin-x-tablet);
+    margin-right: var(--section-margin-x-tablet);
+    padding: 48px 40px;
+    margin-top: 80px;
+  }
+
+  .aboutImage {
+    width: 32%;
+  }
+
+  .aboutItems {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .container {
     background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 24px var(--section-margin-x-mobile);
+    margin-left: var(--section-margin-x-mobile);
+    margin-right: var(--section-margin-x-mobile);
+    margin-top: 64px;
   }
 
   .content {
     flex-direction: column;
+    gap: 24px;
   }
 
   .aboutImage {
@@ -82,11 +116,32 @@
   }
 
   .aboutItems {
-    margin-top: 29px;
+    margin-top: 8px;
+    gap: 20px;
+    width: 100%;
   }
 
   .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 16px;
+    align-items: flex-start;
+  }
+
+  .aboutItem img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .aboutItem {
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px;
   }
 }

@@ -1,25 +1,80 @@
 [
   {
-    "title": "Html & CSS-Tasks",
+    "title": "CyberDesk E-Commerce",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Full-featured e-commerce website for CyberDesk with product catalog, cart flow, and responsive storefront.",
+    "skills": ["React", "Node.js", "E-Commerce"],
+    "demo": "https://cyber-desk-five.vercel.app/"
+  },
+  {
+    "title": "Doc Query — RAG Application",
+    "imageSrc": "projects/project.png",
+    "description": "Document query system using retrieval-augmented generation (RAG) to answer questions from uploaded knowledge bases.",
+    "skills": ["RAG", "AI", "React", "Vercel"],
+    "demo": "https://doc-query-zeta.vercel.app/"
+  },
+  {
+    "title": "Veda Educational Consultancy",
+    "imageSrc": "projects/project.png",
+    "description": "Business website for an educational consultancy in Visakhapatnam — courses, services, and contact flows.",
+    "skills": ["React", "Responsive UI", "SEO"],
+    "demo": "https://vedaeducationalconsultancy.in/"
+  },
+  {
+    "title": "SSADS — Dachappali",
+    "imageSrc": "projects/project.png",
+    "description": "Corporate website for SSADS in Dachappali showcasing services and brand presence.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://ssads.in/"
+  },
+  {
+    "title": "Bandla Hospital",
+    "imageSrc": "projects/project.png",
+    "description": "Healthcare website for Bandla Hospital in Piduguralla with department info and patient-facing content.",
+    "skills": ["React", "Healthcare", "Responsive Design"],
+    "demo": "https://bandlahospitals.in/"
+  },
+  {
+    "title": "Windows Technologies",
+    "imageSrc": "projects/project.png",
+    "description": "Company website for Windows Technologies in Piduguralla highlighting products and services.",
+    "skills": ["React", "Business Website"],
+    "demo": "https://windowstechnologies.in/"
+  },
+  {
+    "title": "Surya Infra",
+    "imageSrc": "projects/project.png",
+    "description": "Infrastructure company website for Surya Infra in Hyderabad — projects, services, and enquiries.",
+    "skills": ["React", "Corporate Site"],
+    "demo": "https://suryainfras.in/"
+  },
+  {
+    "title": "Viaksha Hospital",
+    "imageSrc": "projects/project.png",
+    "description": "Hospital website with medical services, departments, and appointment information for Viaksha Hospital.",
+    "skills": ["React", "Healthcare", "UI/UX"]
+  },
+  {
+    "title": "Html & CSS Tasks",
+    "imageSrc": "projects/project.png",
+    "description": "Learning project — HTML and CSS exercises from MERN training.",
     "skills": ["HTML", "CSS"],
     "demo": "https://ganga-777.github.io/MERN_HTML-CSS_TASKS/",
     "source": "https://github.com/Ganga-777/MERN_HTML-CSS_TASKS"
   },
   {
-    "title": "Bootstrap & JavaScript-Tasks",
+    "title": "Bootstrap & JavaScript Tasks",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": [ "JavaScript", "Bootstrap"],
+    "description": "Learning project — Bootstrap and JavaScript tasks from MERN training.",
+    "skills": ["JavaScript", "Bootstrap"],
     "demo": "https://ganga-777.github.io/Bootstrap-JavaScript_Tasks/",
     "source": "https://github.com/Ganga-777/Bootstrap-JavaScript_Tasks"
   },
   {
-    "title": "ReactJS-Tasks",
+    "title": "ReactJS Tasks",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "HTML", "JS", "Json"],
+    "description": "Learning project — React components and patterns from MERN training.",
+    "skills": ["React", "HTML", "JSON"],
     "demo": "https://ganga-777.github.io/Mern_ReactJS/",
     "source": "https://github.com/Ganga-777/Mern_ReactJS"
   }

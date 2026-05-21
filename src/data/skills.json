@@ -12,16 +12,16 @@
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node.js",
     "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "MySQL",
-    "imageSrc": "skills/graphql.png"
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "React Native",
+    "imageSrc": "skills/react.png"
   },
   {
     "title": "Python",

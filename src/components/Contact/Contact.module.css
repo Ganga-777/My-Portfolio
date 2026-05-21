@@ -6,22 +6,27 @@
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 58px var(--section-margin-x);
+  gap: 32px;
+  box-sizing: border-box;
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: clamp(32px, 6vw, 80px);
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: clamp(1px, 0.5vw, 4px);
+  line-height: 1.1;
 }
 
 .text p {
-  font-size: 40px;
+  font-size: clamp(18px, 3vw, 40px);
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: clamp(0.5px, 0.2vw, 2px);
+  margin-top: 8px;
 }
 
 .links {
@@ -30,35 +35,91 @@
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+  min-width: 0;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 16px;
+  max-width: 100%;
+}
+
+.link img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: clamp(14px, 2vw, 24px);
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
+  word-break: break-word;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 48px var(--section-margin-x-tablet);
+    margin-top: 80px;
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    align-items: center;
+    text-align: center;
+    padding: 40px var(--section-margin-x-mobile);
+    margin-top: 64px;
+    gap: 28px;
   }
 
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .links {
     align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .link {
+    justify-content: center;
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .link a {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 32px var(--section-margin-x-mobile);
+    margin-top: 48px;
+  }
+
+  .links {
+    gap: 16px;
+  }
+
+  .link {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .link a {
+    text-align: center;
+    font-size: 14px;
   }
 }
