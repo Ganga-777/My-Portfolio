@@ -23,7 +23,7 @@ export const About = () => {
           <div className={styles.expertiseGrid}>
             <div className={styles.expertiseCard}>
               <div className={styles.expertiseIcon}>
-                <img src={getImageUrl("skills/react.png")} alt="Frontend" />
+                <img src={getImageUrl("skills/react.svg")} alt="Frontend" />
               </div>
               <h3>Frontend Development</h3>
               <p>React.js, React Native, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS</p>
@@ -31,7 +31,7 @@ export const About = () => {
             
             <div className={styles.expertiseCard}>
               <div className={styles.expertiseIcon}>
-                <img src={getImageUrl("skills/node.png")} alt="Backend" />
+                <img src={getImageUrl("skills/dotnet.svg")} alt="Backend" />
               </div>
               <h3>Backend Development</h3>
               <p>.NET APIs, Node.js, Express.js, Java Spring Boot, REST API Integration</p>
@@ -39,7 +39,7 @@ export const About = () => {
             
             <div className={styles.expertiseCard}>
               <div className={styles.expertiseIcon}>
-                <img src={getImageUrl("skills/mongodb.png")} alt="Database" />
+                <img src={getImageUrl("skills/mysql.svg")} alt="Database" />
               </div>
               <h3>Database & Cloud</h3>
               <p>MySQL, MongoDB, AWS Cloud Services, Database Management</p>
@@ -47,7 +47,7 @@ export const About = () => {
             
             <div className={styles.expertiseCard}>
               <div className={styles.expertiseIcon}>
-                <img src={getImageUrl("about/serverIcon.png")} alt="Specialized" />
+                <img src={getImageUrl("skills/python.svg")} alt="Specialized" />
               </div>
               <h3>Specialized Skills</h3>
               <p>AI-based Applications, Real-time Systems, OpenCV, Python</p>

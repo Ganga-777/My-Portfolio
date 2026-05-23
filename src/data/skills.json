@@ -1,58 +1,58 @@
 [
   {
     "title": "React.js",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react.svg"
   },
   {
     "title": "React Native",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react-native.svg"
   },
   {
     "title": ".NET",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/dotnet.svg"
   },
   {
     "title": "Node.js",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/nodejs.svg"
   },
   {
     "title": "Express.js",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/express.svg"
   },
   {
     "title": "Spring Boot",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "skills/springboot.svg"
   },
   {
     "title": "MySQL",
-    "imageSrc": "skills/mongodb.png"
+    "imageSrc": "skills/mysql.svg"
   },
   {
     "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "imageSrc": "skills/mongodb.svg"
   },
   {
     "title": "AWS",
-    "imageSrc": "skills/graphql.png"
+    "imageSrc": "skills/aws.svg"
   },
   {
     "title": "Python",
-    "imageSrc": "skills/figma.png"
+    "imageSrc": "skills/python.svg"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "skills/javascript.svg"
   },
   {
     "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "skills/html.svg"
   },
   {
     "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "skills/css.svg"
   },
   {
     "title": "Tailwind",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "skills/tailwind.svg"
   }
 ]
