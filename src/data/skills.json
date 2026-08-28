@@ -1,62 +1,77 @@
 [
   {
     "title": "React.js",
-    "imageSrc": "skills/react.svg"
+    "imageSrc": "skills/react.svg",
+    "category": "Frontend"
   },
   {
     "title": "TypeScript",
-    "imageSrc": "skills/typescript.svg"
+    "imageSrc": "skills/typescript.svg",
+    "category": "Frontend"
   },
   {
     "title": "React Native",
-    "imageSrc": "skills/react-native.svg"
+    "imageSrc": "skills/react-native.svg",
+    "category": "Frontend"
   },
   {
     "title": ".NET",
-    "imageSrc": "skills/dotnet.svg"
-  },
-  {
-    "title": "Node.js",
-    "imageSrc": "skills/nodejs.svg"
-  },
-  {
-    "title": "Express.js",
-    "imageSrc": "skills/express.svg"
-  },
-  {
-    "title": "Spring Boot",
-    "imageSrc": "skills/springboot.svg"
+    "imageSrc": "skills/dotnet.svg",
+    "category": "Backend & DB"
   },
   {
     "title": "MySQL",
-    "imageSrc": "skills/mysql.svg"
+    "imageSrc": "skills/mysql.svg",
+    "category": "Backend & DB"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/nodejs.svg",
+    "category": "Backend & DB"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/express.svg",
+    "category": "Backend & DB"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/springboot.svg",
+    "category": "Backend & DB"
   },
   {
     "title": "MongoDB",
-    "imageSrc": "skills/mongodb.svg"
+    "imageSrc": "skills/mongodb.svg",
+    "category": "Backend & DB"
   },
   {
     "title": "AWS",
-    "imageSrc": "skills/aws.svg"
+    "imageSrc": "skills/aws.svg",
+    "category": "Cloud & AI"
   },
   {
     "title": "Python",
-    "imageSrc": "skills/python.svg"
+    "imageSrc": "skills/python.svg",
+    "category": "Cloud & AI"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/javascript.svg"
+    "imageSrc": "skills/javascript.svg",
+    "category": "Frontend"
   },
   {
     "title": "HTML",
-    "imageSrc": "skills/html.svg"
+    "imageSrc": "skills/html.svg",
+    "category": "Frontend"
   },
   {
     "title": "CSS",
-    "imageSrc": "skills/css.svg"
+    "imageSrc": "skills/css.svg",
+    "category": "Frontend"
   },
   {
     "title": "Tailwind",
-    "imageSrc": "skills/tailwind.svg"
+    "imageSrc": "skills/tailwind.svg",
+    "category": "Frontend"
   }
 ]
