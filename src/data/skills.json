@@ -4,6 +4,10 @@
     "imageSrc": "skills/react.svg"
   },
   {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.svg"
+  },
+  {
     "title": "React Native",
     "imageSrc": "skills/react-native.svg"
   },

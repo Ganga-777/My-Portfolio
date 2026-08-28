@@ -45,7 +45,10 @@ export const Experience = () => {
                     </div>
                     <div className={styles.historyItemDetails}>
                       <h4>{historyItem.role}</h4>
-                      <p className={styles.company}>{historyItem.organisation}</p>
+                      <p className={styles.company}>
+                        {historyItem.organisation}
+                        {historyItem.location ? ` • ${historyItem.location}` : ""}
+                      </p>
                       <p className={styles.duration}>
                         {historyItem.endDate
                           ? `${historyItem.startDate} - ${historyItem.endDate}`

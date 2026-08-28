@@ -1,21 +1,35 @@
 [
   {
-    "role": "Full Stack Developer",
-    "organisation": "JumpStartNinja Technologies",
-    "startDate": "April 2025",
+    "role": "Research & Development (R&D)",
+    "organisation": "Naval Science & Technological Laboratory (NSTL), DRDO",
+    "location": "Visakhapatnam",
+    "startDate": "August 2026",
     "endDate": "Present",
     "experiences": [
-      "Developing scalable enterprise dashboard systems",
-      "Building frontend architecture with React.js",
-      "Creating .NET APIs for backend services",
-      "Implementing environment-based branding systems",
-      "Working on HR and inspection dashboard features"
+      "Contributing to core Research & Development (R&D) activities at Naval Science & Technological Laboratory (NSTL), DRDO in Visakhapatnam.",
+      "Engaging in technical innovation, advanced systems research, and high-impact defence R&D projects.",
+      "Embracing new technical challenges, continuous learning, and key responsibilities in an advanced research environment."
     ],
-    "imageSrc": "history/google.png"
+    "imageSrc": "history/drdo.svg"
+  },
+  {
+    "role": "Full Stack Developer",
+    "organisation": "JumpStartNinja Technologies",
+    "location": "Chennai",
+    "startDate": "April 2025",
+    "endDate": "August 2026",
+    "experiences": [
+      "Developed scalable enterprise web applications and dashboard systems using React, TypeScript, and .NET backend.",
+      "Engineered robust API services with .NET and managed database systems with MySQL.",
+      "Designed clean frontend architecture and implemented environment-based branding systems.",
+      "Worked on comprehensive HR platforms and inspection dashboard features."
+    ],
+    "imageSrc": "history/jumpstart.svg"
   },
   {
     "role": "Mobile App Development Intern",
     "organisation": "Lyte Calc Technologies Pvt Ltd",
+    "location": "",
     "startDate": "Internship",
     "endDate": "",
     "experiences": [
@@ -29,6 +43,7 @@
   {
     "role": "MERN Stack Intern",
     "organisation": "ETHNUS",
+    "location": "",
     "startDate": "September 2023",
     "endDate": "November 2023",
     "experiences": [

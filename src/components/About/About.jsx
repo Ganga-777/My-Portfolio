@@ -8,8 +8,9 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
       <p className={styles.intro}>
-        Full Stack Developer with hands-on experience in building scalable web and mobile 
-        applications. Currently contributing to enterprise systems at JumpStartNinja Technologies.
+        Full Stack Developer & R&D Professional with hands-on experience in React, TypeScript, .NET, 
+        and MySQL. Currently contributing to Research & Development activities at Naval Science & 
+        Technological Laboratory (NSTL), DRDO, Visakhapatnam, with previous full-stack experience at JumpStartNinja Technologies, Chennai.
       </p>
       
       <div className={styles.content}>
@@ -26,7 +27,7 @@ export const About = () => {
                 <img src={getImageUrl("skills/react.svg")} alt="Frontend" />
               </div>
               <h3>Frontend Development</h3>
-              <p>React.js, React Native, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS</p>
+              <p>React.js, TypeScript, React Native, JavaScript, HTML, CSS, Tailwind CSS</p>
             </div>
             
             <div className={styles.expertiseCard}>
